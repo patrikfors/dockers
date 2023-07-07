@@ -8,9 +8,6 @@ else
         release=googletest-$1
 fi
 
-echo branch=$branch
-echo release=$release
-
 git clone --branch $branch https://github.com/google/googletest.git
 mkdir build && cd build
 
